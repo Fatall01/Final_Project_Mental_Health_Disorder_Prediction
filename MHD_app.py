@@ -130,6 +130,6 @@ with st.container():
     st.subheader("""[Learn More About Mental Health Disorders](https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html)""")
     st.subheader("""[Online Support Groups](https://www.supportgroups.com/online)""")
     st.write("##")
-    st.write("---")
+    #st.write("---")
 
 ##----------------- END OF THE CODE----------------
