@@ -52,7 +52,7 @@ with st.container():
     # add a divider
     st.write("---")
     #add header for the input part
-    st.subheader("Please complete this questionnaire and click on MHD TEST")
+    st.subheader("Please complete this questionnaire and click on Submit answers")
     st.write("##")
 
     #adding input options 
@@ -122,5 +122,15 @@ if st.button('Submit answers'):
  st.write(f'There is {diagnosis.iat[0,0]} % chance that you do not have a MHD')
  st.write(f'There is {diagnosis.iat[0,1]} % chance that you may currently have a MHD')
  st.write(f'There is {diagnosis.iat[0,2]} % chance that you currently have a MHD')
+
+# 7 add like for help
+with st.container():
+    # add a divider
+    st.write("---")
+    st.subheader("""** 
+                 [Learn More About Mental Health Disorders](https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html)
+                 [Online Support Groups](https://www.supportgroups.com/online)**""")
+    st.write("##")
+    st.write("---")
 
 ##----------------- END OF THE CODE----------------
