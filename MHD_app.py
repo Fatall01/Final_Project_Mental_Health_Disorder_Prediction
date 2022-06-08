@@ -59,39 +59,39 @@ with st.container():
     age = st.number_input("What is your age?", min_value=18, max_value=65, step=1)
 
     mhd_in_the_past = st.selectbox('Have you had a mental health disorder in the past?',
-    ('Yes', 'Maybe', 'No'))
+    ('Choose your answer', 'Yes', 'Maybe', 'No'))
             #st.write('You selected:', mhd_in_the_past)
 
     mhd_coworkers_discussion = st.selectbox('Would you feel comfortable discussing a mental health disorder with your coworkers?',
-    ('Yes', 'Maybe', 'No'))
+    ('Choose your answer', 'Yes', 'Maybe', 'No'))
             #st.write('You selected:', mhd_coworkers_discussion)
 
     mhd_diagnosis = st.selectbox('Have you been diagnosed with a mental health condition by a medical professional?',
-    ('Yes', 'No'))
+    ('Choose your answer', 'Yes', 'No'))
             #st.write('You selected:', mhd_diagnosis)
 
     gender = st.selectbox('What is your gender?',
-    ('female', 'male', 'others'))
+    ('Choose your answer', 'female', 'male', 'others'))
             #st.write('You selected:', gender)
 
     mhd_family_history = st.selectbox('Do you have a family history of mental illness?',
-    ('No', 'Yes', 'I do not know'))
+    ('Choose your answer', 'No', 'Yes', 'I do not know'))
             #st.write('You selected:', mhd_family_history)
 
     mhd_interview = st.selectbox('Would you bring up a mental health issue with a potential employer in an interview?',
-    ('Maybe', 'No', 'Yes'))
+    ('Choose your answer', 'Maybe', 'No', 'Yes'))
             #st.write('You selected:', mhd_interview)
 
     prev_employer_mhd_seriousness = st.selectbox('Did you feel that your previous employers took mental health as seriously as physical health?',
-    ('None did', 'I do not know', 'Some did', 'Yes, they all did'))
+    ('Choose your answer', 'None did', 'I do not know', 'Some did', 'Yes, they all did'))
             #st.write('You selected:', prev_employer_mhd_seriousness)
 
     mhd_unsupportive_response = st.selectbox('Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?',
-    ('No', 'Maybe/Not sure', 'Yes, I observed', 'Yes, I experienced'))
+    ('Choose your answer', 'No', 'Maybe/Not sure', 'Yes, I observed', 'Yes, I experienced'))
             #st.write('You selected:', mhd_unsupportive_response)
 
     mh_work_interfere = st.selectbox('If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?',
-    ('Never', 'Not applicable to me', 'Rarely', 'Sometimes', 'Often'))
+    ('Choose your answer', 'Never', 'Not applicable to me', 'Rarely', 'Sometimes', 'Often'))
             #st.write('You selected:', mh_work_interfere)
 
 
@@ -117,7 +117,7 @@ with st.container():
         })
 
 # 6 predict_proba(new_df) and create botton for diagnosis
-if st.button('MHD TEST'):
+if st.button('Submit answers'):
  diagnosis = (pd.DataFrame(loaded_model.predict_proba(new_df)) * 100).round(decimals = 1)
  st.write(f'There is {diagnosis.iat[0,0]} % chance that you do not have a MHD')
  st.write(f'There is {diagnosis.iat[0,1]} % chance that you may currently have a MHD')
