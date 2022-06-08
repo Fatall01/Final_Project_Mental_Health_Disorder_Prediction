@@ -17,7 +17,10 @@ Develop a web application to help assess the risk of whether an individual curre
 
 ![image](https://user-images.githubusercontent.com/97614389/172573514-f26cc2d1-9eb4-45fc-bdc1-b3d7b36a35a4.png)
 
-![image](https://user-images.githubusercontent.com/97614389/172573805-d8b2698f-10c1-4435-a16a-89ed028e7e3e.png)
+
+## Streamlit wep app for MHD prediction
+![image](https://user-images.githubusercontent.com/97614389/172575604-06279113-a5df-4a99-8ce8-2967e738aa9f.png)
+
 
 ## Get yourself tested 
 https://share.streamlit.io/fatall01/streamlit_web_app/main/test_app.py
