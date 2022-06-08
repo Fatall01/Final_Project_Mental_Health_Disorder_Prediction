@@ -15,6 +15,8 @@ Develop a web application to help assess the risk of whether an individual curre
 
 ![image](https://user-images.githubusercontent.com/97614389/172571108-72057f32-8ed0-4f82-b517-55e70aa43ef3.png)
 
+
+## Machine learning models
 ![image](https://user-images.githubusercontent.com/97614389/172573514-f26cc2d1-9eb4-45fc-bdc1-b3d7b36a35a4.png)
 
 
