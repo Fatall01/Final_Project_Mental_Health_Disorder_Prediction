@@ -6,7 +6,6 @@ Mental health disorders (MHD) are spread everywhere. Nearly 800 million people l
 
 ![image](https://user-images.githubusercontent.com/97614389/172569662-17cc0542-2405-4249-a6a0-b300771cacb2.png)
 
-![image](https://user-images.githubusercontent.com/97614389/172569882-d75f5b6f-2d33-4b72-9a7c-5b3aefed3173.png)
 
 ## Aim of the project
 
