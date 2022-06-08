@@ -127,9 +127,9 @@ if st.button('Submit answers'):
 with st.container():
     # add a divider
     st.write("---")
-    st.subheader("""** 
+    st.subheader("""
                  [Learn More About Mental Health Disorders](https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html)
-                 [Online Support Groups](https://www.supportgroups.com/online)**""")
+                 [Online Support Groups](https://www.supportgroups.com/online)""")
     st.write("##")
     st.write("---")
 
